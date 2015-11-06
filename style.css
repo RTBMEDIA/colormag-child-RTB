@@ -1,0 +1,139 @@
+/*
+Theme Name: Colormag Child
+Theme URI: http://themegrill.com/themes/colormag/
+Description: Colormag Child Theme
+Author: ThemeGrill
+Author URI: http://themegrill.com
+Template: colormag
+Version: 1.0.9
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+    background-color: #EAEAEA;
+    font-family: "Raleway" !important;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: optimizelegibility;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 1.08em;
+    font-weight: 400;
+    color: #5C707B;
+} 
+textarea, a, p, h1, h2, h3, h4, h5, h6, blockquote p, #site-description, .main-navigation li, .site-header .menu-toggle,   {
+	font-family: 'Raleway', 'Open Sans', serif !important;
+        font-weight: 400;
+}
+h1 { font-size: 2em; line-height: 1.2; color: #000; }
+h2 { font-size: 1.7em; line-height: 1.2; color: #000; padding-bottom: 25px !important; }
+h3 { font-size: 1.4em; line-height: 1.2; color: #000;}
+h4 { font-size: 1.3em; line-height: 1.2; color: #000;}
+h5 { font-size: 26px; line-height: 1.2; color: #000;}
+h6 { font-size: 22px; line-height: 1.2; color: #000;}
+body, button, input, select, textarea {
+    color: #5C707B;
+    font: 1.08em/1.9 "Raleway",serif;
+    word-wrap: break-word;
+}
+p {
+	line-height: 1.7 !important;
+	font-size: 1.08em !important;
+}
+.entry-content li {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+#header-text-nav-wrap {
+    padding: 10px 0px 10px;
+}
+#header-logo-image img {
+    margin-bottom: 0px;
+    width: 70px;
+}
+#site-navigation {
+    border-top: 4px solid #E82264 !important;
+    background-color: #FFF !important;
+    color: #000 !important;
+    border-bottom: 1px solid #E82264 !important;
+    box-shadow: none;
+}
+.main-navigation li:first-child {
+    border-left: 1px dotted;
+}
+.main-navigation li {
+
+    font-weight: 400;
+    border-right: 1px dotted;
+}
+.main-navigation a, .main-navigation li a {
+    color: #000000;
+ 
+}
+.home-icon.front_page_on, .main-navigation a:hover, .main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover > a, .main-navigation ul li.current-menu-ancestor > a, .main-navigation ul li.current-menu-item ul li a:hover, .main-navigation ul li.current-menu-item > a, .main-navigation ul li.current_page_ancestor > a, .main-navigation ul li.current_page_item > a, .main-navigation ul li:hover > a, .main-small-navigation li a:hover, .site-header .menu-toggle:hover {
+    background-color: #E82264 !important;
+}
+.home-icon .fa {
+    color: #000000;
+
+}
+.fa.search-top {
+    color: #000;
+
+}
+.random-post .fa-random {
+    color: #000000;
+}
+.menu-toggle, h4.menu-toggle, .site-header .menu-toggle {
+color: #000000 !important;
+}
+.site-header .menu-toggle:before {
+color: #000 !important;
+}
+/*
+#primary {
+    float: left;
+    width: 75%;
+}
+#secondary {
+    float: right;
+    width: 23%;
+}
+#content .post .article-content .entry-title {
+
+    font-size: font-size: 2em;
+}
+#content .post img {
+    margin-bottom: 0px;
+    width: 100%;
+}
+*/
+.single #content .post, #content .post, .widget_featured_posts .single-article, .widget_featured_posts .single-article, .single-related-posts {
+    border: 1px solid #E7E7E7 !important;
+    box-shadow: 0px 1px 3px 0px rgba(255, 255, 255, 0);
+}
+
+.advert, .adverts {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.addborder {
+border: 1px solid #DDDDDD;
+}
+.slider-featured-image {
+  overflow: hidden;
+}
+.slider-featured-image img {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+   transform: scale(1);
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+   transition: all 0.5s ease 0s;
+}
+.slider-featured-image:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
